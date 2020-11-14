@@ -82,6 +82,7 @@ ul {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     color: var(--hover-button-color);
 }
@@ -93,6 +94,7 @@ ul {
 .site-nav .link.current {
     color: var(--hover-button-color);
     position: relative;
+    transition: 5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .current::after {
@@ -136,6 +138,7 @@ focus {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--main-text-color);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .upper-contacts {
@@ -178,6 +181,7 @@ focus {
     line-height: 16px;
     letter-spacing: 0.02em;
     color: var(--secondary-color);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .upper-contacts-item:hover {
     color: var(--hover-button-color);
@@ -506,6 +510,7 @@ focus {
     height: 44px;
     background-color: var(--white);
     border-radius: 50%;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-icons-link:hover .social-icons-svg,
 .social-icons-link:focus .social-icons-svg {
@@ -561,9 +566,11 @@ focus {
     border: 1px solid #afb1b8;
     border-radius: 4px;
     color: var(--social-icons-color);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients-examples-svg {
     fill: var(--social-icons-color);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .constant-clients-list-item:hover .clients-examples-svg,
@@ -603,6 +610,7 @@ focus {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--hover-button-color);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footerlogospan {
@@ -643,6 +651,7 @@ focus {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mail:hover,
@@ -684,6 +693,7 @@ focus {
     height: 44px;
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-social-icons-link:hover .footer-social-icons-svg,
 .footer-social-icons-link:focus .footer-social-icons-svg {
@@ -738,6 +748,7 @@ focus {
     background: var(--team-background-color);
     border-radius: 4px;
     border: 0;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .project-button-item:not(:last-child) {
